@@ -1,0 +1,133 @@
+/* OAuthDashboardPage.css */
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 56px);
+  font-family: 'Segoe UI', 'Malgun Gothic', sans-serif;
+  font-size: 18px;
+  color: #666;
+}
+
+.dashboard-container {
+  min-height: calc(100vh - 56px);
+  background: #f0f2f5;
+  font-family: 'Segoe UI', 'Malgun Gothic', sans-serif;
+}
+
+.dashboard-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2);
+}
+
+.dashboard-header h1 { font-size: 18px; font-weight: 700; }
+
+.logout-btn {
+  background: rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.5);
+  color: white;
+  padding: 7px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.logout-btn:hover { background: rgba(255,255,255,0.35); }
+
+.dashboard-main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.profile-card, .db-section {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+
+.profile-card { text-align: center; }
+.profile-card h2 { font-size: 18px; color: #1a1a2e; margin-bottom: 20px; }
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #667eea;
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.info-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+.info-label { font-weight: 600; color: #666; min-width: 130px; }
+.info-value { color: #1a1a2e; word-break: break-all; }
+.info-value.sub { font-size: 12px; color: #888; font-family: monospace; }
+
+.db-section h2 { font-size: 18px; color: #1a1a2e; margin-bottom: 12px; }
+.db-section p { color: #555; font-size: 14px; margin-bottom: 16px; line-height: 1.6; }
+.db-section a { color: #667eea; }
+.db-section code { background: #eee; padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+
+.fetch-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-bottom: 20px;
+}
+
+.fetch-btn:hover { opacity: 0.85; }
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.user-table th {
+  background: #f0f2f5;
+  padding: 10px 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #444;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.user-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #333;
+}
+
+.user-table tr:hover td { background: #fafafa; }

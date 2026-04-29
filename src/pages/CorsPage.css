@@ -1,0 +1,89 @@
+.cors-page {
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', 'Malgun Gothic', sans-serif;
+}
+
+.cors-page h1 {
+  font-size: 22px;
+  color: #1a1a2e;
+  margin-bottom: 24px;
+}
+
+.box {
+  border: 1px solid #dde1e7;
+  background: white;
+  padding: 20px 24px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.box h3 {
+  font-size: 15px;
+  color: #1a1a2e;
+  margin-bottom: 8px;
+}
+
+.box p {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #333;
+}
+
+input {
+  padding: 6px 10px;
+  width: 200px;
+  margin-left: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+button {
+  padding: 9px 16px;
+  background: #3b6cf6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-right: 8px;
+  margin-top: 8px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+button:hover { opacity: 0.85; }
+
+button.danger { background: #dc3545; }
+
+textarea {
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  resize: vertical;
+  background: #f8f9fa;
+}
+
+.highlight {
+  background: #fdfd96;
+  font-weight: bold;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
