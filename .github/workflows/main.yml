@@ -19,7 +19,10 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
+        
+      - name: Set permissions
+        run: chmod +x node_modules/.bin/vite
+      
       - name: Build
         run: npm run build
 
